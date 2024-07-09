@@ -94,7 +94,7 @@ app.post('/webhook', async (req, res) => {
     try {
       await db.collection(req.body.session).add({
         user: String(req.body.queryResult.queryText),
-        bot: responseText,
+        bot: String(req.body.queryResult.fulfillmentText),
         intent: String(req.body.queryResult.intent.displayName),
         timestamp: FieldValue.serverTimestamp()
       });
