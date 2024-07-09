@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^12.2.0"
+  },
+  "name": "nlp-chatbot",
+  "version": "1.0.0",
+  "description": "node js server for dialog flow chatbot",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrimesK/NLP-Chatbot.git"
+  },
+  "keywords": [
+    "Express",
+    "js",
+    "Dialogflow",
+    "Heroku"
+  ],
+  "author": "Primes Bryan Villa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrimesK/NLP-Chatbot/issues"
+  },
+  "homepage": "https://github.com/PrimesK/NLP-Chatbot#readme"
+}
